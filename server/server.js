@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const socket = require("socket.io");
 
-require("./server/config/mongoose.config");
+require("./config/mongoose.config");
 const app = express();
 app.use(cors());
 app.use(express.json());
